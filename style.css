@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: #ffffff;
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+
+  button {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    border-radius: 5px;
+    border: none;
+    background: #0082f4;
+    color: #ffffff;
+  }
+}
+
+.headerNav {
+  display: flex;
+  gap: 50px;
+
+  a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 190px;
+
+  h2 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    color: #0080fd;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 60.55px;
+    line-height: 130%;
+    margin-top: 10px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 10px;
+    color: #000000;
+  }
+}
+
+.btns {
+  display: flex;
+  margin-top: 20px;
+  button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background: #5454d4;
+    color: #ffffff;
+  }
+}
+
+.in {
+  position: relative;
+}
+.dex {
+  position: absolute;
+  top: 70px;
+  left: -50px;
+}
+
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 190px;
+  margin-top: 100px;
+
+  h2 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+    color: #0082f4;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 130%;
+    color: #000000;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: 20px;
+    color: grey;
+  }
+
+  button {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #ffffff;
+    background: #0082f4;
+  }
+}
